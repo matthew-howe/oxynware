@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.pageCont {
+  margin: 4em;
+}
+
+.faqA {
+  margin: 1em;
+}
