@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <p className={styles.description}>Software Systems </p>
 
         <div className={styles.grid}>
+        <Link href="/trader">
           <a
             href="https://matthew-howe.github.io/knightstour/"
             className={styles.card}
@@ -27,10 +29,13 @@ export default function Home() {
             <h2>OxynTrader&rarr;</h2>
             <p>Real-Time data and tooling for markets and securities.</p>
           </a>
+          </Link>
+          <Link href="/poker">
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>OxynPoker&rarr;</h2>
             <p>Nash Equilibrium solution terminal and training game.</p>
           </a>
+</Link>
         </div>
       </main>
       <Footer />
