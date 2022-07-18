@@ -26,3 +26,17 @@ a {
 .faqA {
   margin: 1em;
 }
+
+#newsletter {
+  text-align: center;
+  margin: 5em;
+}
+
+.newslettertext {
+  margin: 0.75em;
+}
+
+#subscribebtn {
+  margin-top: 0.33em;
+  margin-left: 1em;
+}

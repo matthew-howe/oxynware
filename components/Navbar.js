@@ -29,11 +29,11 @@ export default function NavBar() {
       <Link href="/">
         {renderNavel('/')}
       </Link>
-      <Link href="/poker">
-        {renderNavel('poker')}
-      </Link>
       <Link href="/trader">
         {renderNavel('trader')}
+      </Link>
+      <Link href="/poker">
+        {renderNavel('poker')}
       </Link>
       <Link href="/support">
         {renderNavel('support')}
