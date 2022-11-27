@@ -29,9 +29,6 @@ export default function NavBar() {
       <Link href="/">
         {renderNavel('/')}
       </Link>
-      <Link href="/trader">
-        {renderNavel('trader')}
-      </Link>
       <Link href="/poker">
         {renderNavel('poker')}
       </Link>

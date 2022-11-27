@@ -22,15 +22,6 @@ export default function Home() {
         <p className={styles.description}>Software Systems </p>
 
         <div className={styles.grid}>
-          <Link href="/trader">
-            <a
-              href="https://matthew-howe.github.io/knightstour/"
-              className={styles.card}
-            >
-              <h2>OxynTrader&rarr;</h2>
-              <p>Real-Time data and tooling for markets and securities.</p>
-            </a>
-          </Link>
           <Link href="/poker">
             <a href="https://nextjs.org/docs" className={styles.card}>
               <h2>OxynPoker&rarr;</h2>
