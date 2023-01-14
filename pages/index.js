@@ -22,8 +22,8 @@ export default function Home() {
         <p className={styles.description}>Software Systems </p>
 
         <div className={styles.grid}>
-          <Link href="/poker">
-            <a href="https://nextjs.org/docs" className={styles.card}>
+          <Link href="https://oxynpoker.com">
+            <a href="https://oxynpoker.com" className={styles.card}>
               <h2>OxynPoker&rarr;</h2>
               <p>Nash Equilibrium solution terminal and training game.</p>
             </a>

@@ -6,7 +6,7 @@ export default function Poker() {
   return (
     <div>
       <Navbar />
-      <Newsletter />
+      Hello world
       <Footer />
     </div>
   );

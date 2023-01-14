@@ -29,14 +29,8 @@ export default function NavBar() {
       <Link href="/">
         {renderNavel('/')}
       </Link>
-      <Link href="/poker">
-        {renderNavel('poker')}
-      </Link>
       <Link href="/support">
-        {renderNavel('support')}
-      </Link>
-      <Link href="/account">
-        {renderNavel('account')}
+        {renderNavel('contact')}
       </Link>
     </div>
   );
