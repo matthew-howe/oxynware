@@ -23,9 +23,15 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="https://oxynpoker.com">
-            <a href="https://oxynpoker.com" className={styles.card}>
-              <h2>OxynPoker&rarr;</h2>
-              <p>Nash Equilibrium solution terminal and training game.</p>
+            <a href="https://oxynpoker.com" target="_blank" className={styles.card}>
+              <h2>OxynPreflop&rarr;</h2>
+              <p>Nash Equilibrium solution terminal.</p>
+            </a>
+          </Link>
+          <Link href="https://oxynpoker.com">
+            <a href="#" className={styles.card}>
+              <h2>OxynPostflop&rarr;</h2>
+              <p>Terminal Explorer. Coming Soon!</p>
             </a>
           </Link>
         </div>
