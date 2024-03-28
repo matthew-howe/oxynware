@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="https://oxynpoker.com">
-            <a href="https://oxynpoker.com" target="_blank" className={styles.card}>
+            <a href="https://oxynpoker.com" target="_blank" rel="noreferrer" className={styles.card}>
               <h2>OxynPreflop&rarr;</h2>
               <p>Nash Equilibrium solution terminal.</p>
             </a>
